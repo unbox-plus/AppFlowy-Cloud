@@ -26,7 +26,7 @@ uuid = { workspace = true, features = ["serde"] }
 [dev-dependencies]
 appflowy-ai-client = { path = ".", features = ["dto", "client-api"] }
 tokio = { version = "1.37.0", features = ["macros", "test-util"] }
-tracing-subscriber = { version = "0.3.18", features = [
+tracing-subscriber = { version = "0.3.20", features = [
   "registry",
   "env-filter",
   "ansi",
