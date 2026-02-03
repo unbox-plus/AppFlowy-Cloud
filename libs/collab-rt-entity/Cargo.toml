@@ -11,7 +11,7 @@ crate-type = ["cdylib", "rlib"]
 collab = { workspace = true }
 collab-entity = { workspace = true }
 serde.workspace = true
-bytes = { version = "1.5", features = ["serde"] }
+bytes = { version = "1.11", features = ["serde"] }
 anyhow.workspace = true
 actix = { version = "0.13", optional = true }
 bincode.workspace = true

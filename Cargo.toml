@@ -224,7 +224,7 @@ dotenvy = "0.15.7"
 serde_json = "1.0.111"
 serde_repr = "0.1.18"
 serde = { version = "1.0.195", features = ["derive"] }
-bytes = "1.9.0"
+bytes = "1.11.1"
 workspace-template = { path = "libs/workspace-template" }
 uuid = { version = "1.6.1", features = ["v4", "v5"] }
 anyhow = "1.0.94"
